@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "name": "QMK",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/firmware/qmk_firmware/tmk_core",
+        "${workspaceFolder}/firmware/qmk_firmware/quantum",
+        "${workspaceFolder}/firmware/qmk_firmware/drivers",
+        "${workspaceFolder}/firmware/qmk_firmware/lib",
+        "${workspaceFolder}/firmware/qmk_firmware/keyboards/haori36"
+      ],
+      "defines": ["__ARM__"],
+      "compilerPath": "arm-none-eabi-gcc",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "gcc-arm"
+    }
+  ],
+  "version": 4
+}
